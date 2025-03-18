@@ -1,5 +1,5 @@
-nums = [1, 2, 3, 4, 2, 5, 2, 6]
-remove_item = 2
 
-filtered_nums = [num for num in nums if num != remove_item]
-print(filtered_nums)
+
+my_list = [1, 2, 3, 4, 2, 5, 2, 6, 2, 5,6,6,5,3,4]
+my_list = list(set(my_list))
+print(my_list)
